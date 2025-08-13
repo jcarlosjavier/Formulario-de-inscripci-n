@@ -119,7 +119,7 @@ body {
     box-shadow: 0 4px 4px rgba(128, 128, 128, 0.33),
     0 0 0.1em rgba(128, 128, 128, 0.297);
     background-color: var(--background-color);
-
+    height: 220px;
 }
 
 .form-content > fieldset {
@@ -128,7 +128,7 @@ body {
     gap: 15px;
     border: none;
     padding: 0;
-    margin: 20px;
+    margin: 0 20px 20px 20px;
     width: 100%;
     max-width: 435px;
 }
@@ -138,6 +138,8 @@ legend {
     margin: 0 0 15px 15px;
     font-size: var(--font-size);
     font-weight: bold;
+    position: relative;
+    top: 10px;
 }
 
 .form-inscrip {
@@ -145,6 +147,8 @@ legend {
     grid-template-rows: auto auto;
     margin-left: 20px;
     width: 180px;
+    position: relative;
+    top: 5px;
 }
 
 .description {
@@ -179,7 +183,7 @@ input:focus {
 }
 
 button {
-    margin:5px 0 20px 40px;
+    margin:25px 0 20px 40px;
     background-color: var(--btn-color);
     color: white;
     border: none;
