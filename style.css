@@ -88,6 +88,7 @@ body {
   flex: 1;  
   box-sizing: border-box;
   margin: 0; 
+  background-color: rgb(251, 251, 251);
  
 }
 
@@ -116,7 +117,8 @@ body {
 }
 
 .form-content {
-    box-shadow: 0 5px 5px rgba(128, 128, 128, 0.384);
+    box-shadow: 0 4px 4px rgba(128, 128, 128, 0.33);
+    background-color: var(--background-color);
 }
 
 .form-content > fieldset {
@@ -147,11 +149,12 @@ legend {
 .description {
     font-size: var(--font-size2);
     font-weight: bolder;
+    padding-bottom: 2px;
 }
 
 input {
     width: 180px;
-    height: 20px;
+    height: 25px;
     border:2px solid var(--input-color);
     padding: 0;
     border-radius: var(--border-radius);
@@ -163,8 +166,8 @@ input[type="password"] {
 
 input:invalid {
   border: none;
-  outline: 2px solid red;
-  border-radius: 5px;
+  outline: 2px solid rgb(199, 106, 106);
+  border-radius: 4px;
 }
 
 input:focus {
@@ -184,10 +187,11 @@ button {
     width: 160px;
     font-size: 12px;
     font-weight: bold;
+    box-shadow: 0 2px 2px rgba(128, 128, 128, 0.304);
 }
 
 .login {
-    margin-left: 40px;
+    padding: 5px 0 0 40px;
     font-size: 11px;
     font-weight:bolder;
 }
